@@ -1,7 +1,9 @@
 name: Maven CI/CD
+
 on:
   push:
     branches: [ Development ]
+    
 jobs:
   test_and_build:
     runs-on: ubuntu-latest
