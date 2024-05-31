@@ -5,7 +5,7 @@ on:
   jobs:
     test_and_build:
       runs-on: ubuntu-latest
-      steps:      
+      steps:
         - name: Hacemos Checkuot del repo de Git
         uses: actions/checkout@v2
         - name: Set up JDK 8
