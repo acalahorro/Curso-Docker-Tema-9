@@ -5,7 +5,7 @@ on:
     branches: [ Development ]
     
 jobs:
-  test_and_build:
+  ci_test_and_build:
     runs-on: ubuntu-latest
     steps:
       - name: Hacemos Checkuot del repo de Git
